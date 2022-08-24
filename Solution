@@ -1,0 +1,16 @@
+My solution was
+
+1.git clone original-repo-url
+2. cd test-task
+3. git checkout add-echo
+4. git rebase -i master
+5. git checkout add-reverse
+6. git rebase -i add-echo
+7. git checkout --theirs lib/**.js 
+8. git checkout --theirs lib/**.js 
+7. git checkout --theirs test/**.js 
+9. git add .
+10. git rebase --continue.
+11 git log
+12. git remote set-url origin my-repo-url
+13. git push origin master
